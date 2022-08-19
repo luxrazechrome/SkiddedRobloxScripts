@@ -286,7 +286,7 @@ end))
 
 Player.OnTeleport:Connect(function(State)
     if State == Enum.TeleportState.Started then
-        syn.queue_on_teleport([[loadstring(game:HttpGet("https://raw.githubusercontent.com/luxrazechrome/SkiddedRobloxScripts/main/VentureTaleFarm.lua?token=GHSAT0AAAAAABPFMQAM4ATBB4NIOSXYR2FUYX7T3MA"))()]])
+        syn.queue_on_teleport([[loadstring(game:HttpGet("https://raw.githubusercontent.com/luxrazechrome/SkiddedRobloxScripts/main/VentureTaleFarm.lua"))()]])
     end
 end)
 
