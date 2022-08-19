@@ -92,7 +92,7 @@ end
 ScriptContext:SetTimeout(2)
 
 if not newData or not Info then
-	writefile("VTAF.lua", HttpService:JSONEncode(mySettings))
+	writefile("balls.lua", HttpService:JSONEncode(mySettings))
 else
 	mySettings	= HttpService:JSONDecode(Info)
 end
