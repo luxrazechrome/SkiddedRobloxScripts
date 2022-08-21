@@ -84,7 +84,7 @@ local uIScale   = 0
 
 --  functions
 
-if game.PlaceVersion ~= 764 then Player:Kick("\nGame Updated\nWait For Script Update!") return end
+if game.PlaceVersion ~= 767 then Player:Kick("\nGame Updated\nWait For Script Update!") return end
 
 for i,v in pairs(getconnections(Player.Idled)) do
     v:Disable()
